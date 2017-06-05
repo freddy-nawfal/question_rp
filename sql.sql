@@ -1,0 +1,1 @@
+ALTER TABLE users ADD question_rp varchar(50) NOT NULL default "false";
