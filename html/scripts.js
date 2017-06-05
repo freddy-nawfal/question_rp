@@ -66,7 +66,7 @@ $(document).ready(function(){
     $(".answerD").html(tableauQuestion[randomQuestion].propositionD);
     $('input[name=question]').attr('checked',false);
     goodAnswer.push(tableauQuestion[randomQuestion].reponse);
-    $(".questionnaire-container .progression").val(toString(questionNumber-1));
+    $(".questionnaire-container .progression").val(questionNumber-1);
   }
   function openResultGood() {
     $(".resultGood").css("display", "block");
